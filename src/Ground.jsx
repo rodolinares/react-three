@@ -10,7 +10,7 @@ const Ground = () => {
       <planeGeometry args={[100, 100, 1, 1]} />
       <shadowMaterial opacity={0.4} />
     </mesh>
-  );
-};
+  )
+}
 
-export default Ground;
+export default Ground

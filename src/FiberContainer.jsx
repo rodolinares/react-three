@@ -1,7 +1,8 @@
-import { OrbitControls } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
-import Scene from "./Scene";
-import Ground from "./Ground";
+import { OrbitControls } from '@react-three/drei'
+import { Canvas } from '@react-three/fiber'
+
+import Ground from './Ground'
+import Scene from './Scene'
 
 const FiberContainer = () => {
   return (
@@ -10,7 +11,7 @@ const FiberContainer = () => {
       <Ground />
       <OrbitControls minDistance={1} maxDistance={200} />
     </Canvas>
-  );
-};
+  )
+}
 
-export default FiberContainer;
+export default FiberContainer
